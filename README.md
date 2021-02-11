@@ -5,7 +5,7 @@
 ### Create
 
 ```bash
-mkdir project && cd project && touch .gitignore && clasp create --rootDir src && npm init --y && npm i @types/google-apps-script --save-dev && clasp open && code -a .
+mkdir project && cd project && touch .gitignore && clasp create --rootDir src && npm init --y && npm i @types/google-apps-script --save-dev && touch src/Code.js && clasp open && code -a .
 ```
 
 ```bash
@@ -31,7 +31,7 @@ clasp open
 ### Push
 
 ```bash
-clasp pull
+clasp push
 ```
 
 ### .gitignore
